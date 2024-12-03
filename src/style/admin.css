@@ -1,0 +1,18 @@
+
+.login1 {
+    /* Styles khusus untuk login section di admin */
+    background-color:white;
+  }
+  
+  .button-login {
+    /* Styles khusus tombol login di admin */
+    background-color: #000000;
+    color: white;
+  }
+  
+  .buat-akun {
+    /* Styles khusus bagian buat akun di admin */
+    background-color: #fff;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,57 @@
+/* Styling untuk Header */
+.header {
+  display: flex; 
+  margin-left: 21em;
+  margin-top: 1.4em;
+  padding: 1.2em 5em; /* Padding agar tidak terlalu rapat */
+  background: linear-gradient(to right, #280158, #6615b2, #9f3cb0);
+  color: white; /* Warna teks putih */
+  position: fixed; /* Menempelkan header di bagian atas */
+  justify-content: space-between; /* Menyebar elemen di dalam header */
+  align-items: center; /* Menjaga elemen tetap sejajar vertikal */
+  width: 75%; /* Lebar header */
+ 
+  top: 0; /* Tetap di atas */
+  left: 0;
+  right: 0;
+  
+  border-radius: 2em; /* Opsional: menambahkan sudut melengkung */
+}
+
+/* Styling untuk kolom pencarian */
+.search-container {
+  flex: 1; /* Membuat search bar menempati ruang yang tersedia */
+  display: flex;
+ 
+}
+
+/* Input pencarian */
+.search-input {
+  width: 90%; /* Lebar kolom pencarian */
+  padding: 10px 15px;
+  border-radius: 20px; /* Membuat sudut membulat */
+  border: none; /* Menghilangkan border default */
+  outline: none; /* Menghilangkan outline */
+  font-size: 1rem; /* Ukuran font */
+}
+
+/* Styling untuk tombol akun */
+.account-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Tombol akun */
+.account-button {
+  background-color: #5c0092; /* Warna latar belakang tombol */
+  color: white; /* Warna teks putih */
+  padding: 10px 50px;
+  border-radius: 2em; /* Membuat sudut membulat */
+  border: none;
+  cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+  font-size: 1em;
+}
+
+.account-button:hover {
+  background-color: #357ab7; /* Warna saat hover */
+}

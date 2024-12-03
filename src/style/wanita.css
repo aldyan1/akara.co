@@ -1,0 +1,69 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wanita-container {
+    padding: 7px;
+    font-style: italic;
+}
+
+/* Styling untuk judul di bawah navbar */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Link wrapping around box */
+.box-link {
+    text-decoration: none;
+}
+
+.box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Styling untuk footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    font-size: 14px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}

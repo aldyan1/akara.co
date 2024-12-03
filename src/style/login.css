@@ -1,0 +1,101 @@
+/* Container utama */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  /* Gaya tombol untuk User dan Admin */
+  .menu-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 1.5em;
+    padding: 8px 19px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: 0.3s;
+  }
+  
+  .menu-button:hover {
+    background-color: #333;
+  }
+  
+  .separator {
+    margin: 0 10px;
+  }
+  
+  
+  .login h1{
+    margin-left: 7em;
+  }
+  
+  /* Menu header di bagian atas tengah */
+  .menu-header {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Kontainer untuk bagian login dan buat akun */
+  .login-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Sesuaikan lebar kontainer */
+  }
+  
+  /* Styling bagian login di kiri */
+  .login1 {
+    width: 43%;
+    margin-left: 1em;
+    
+  }
+  
+  /* Tombol login */
+  .button-login {
+    width: 50%;
+    padding: 13px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Styling bagian buat akun di kanan */
+  .buat-akun {
+    width: 45%;
+    margin-left: 5.4em;
+  }
+  .buat-akun h1 {
+    margin-left: 4.5em;
+    margin-bottom: 0.7em;
+  }
+  
+  /* Tombol registrasi */
+  .button-register {
+    width: 50%;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    
+  }
+  
+  /* Styling list di bagian buat akun */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  

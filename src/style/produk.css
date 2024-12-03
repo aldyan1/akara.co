@@ -1,0 +1,75 @@
+.produk-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 20em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-produk {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-produk input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-produk button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-produk button:hover {
+    background-color: #0056b3;
+  }
+  
+  .produk-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .produk-table th,
+  .produk-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .produk-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .produk-table button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .produk-table button:nth-child(1) {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .produk-table button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .produk-table button:hover {
+    opacity: 0.8;
+  }
+  

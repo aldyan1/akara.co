@@ -1,0 +1,71 @@
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    margin-top: 5.7em;
+    
+}
+  
+  /* Dashboard Content (di dalam main content) */
+  .dashboard-content {
+    display: flex;
+    flex-grow: 1;
+  }
+  .main-content h1{
+    font-size: xxx-large;
+    margin-bottom: 1em;
+    margin-left: 0.8em;
+  }
+  
+  /* Main Content Area */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-left:19em; /* Menyisakan ruang untuk sidebar */
+  }
+  
+  /* Cards for Income and Expenses */
+  .dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 48%; /* Setiap card mengambil 48% dari lebar */
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    color: #6615b2;
+  }
+  
+  .card p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Styling untuk grafik */
+  .dashboard-graph {
+    margin-top: 40px;
+  }
+  
+  .graph-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  
