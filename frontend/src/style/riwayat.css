@@ -1,0 +1,82 @@
+/* Container utama untuk riwayat transaksi */
+.riwayat-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2em;
+}
+
+.riwayat-container h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Tabel riwayat transaksi */
+.riwayat-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.riwayat-table th, .riwayat-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.riwayat-table th {
+  background-color: #000000;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.riwayat-table td {
+  font-size: 1rem;
+}
+
+.riwayat-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Tombol Hapus */
+.riwayat-table button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.riwayat-table button:hover {
+  background-color: #d32f2f;
+}
+
+/* Pesan jika tidak ada data transaksi */
+.no-data1 {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* Responsif untuk tampilan kecil */
+@media screen and (max-width: 768px) {
+  .riwayat-table th, .riwayat-table td {
+      font-size: 0.9rem;
+      padding: 8px;
+  }
+
+  .riwayat-container {
+      padding: 15px;
+  }
+
+  .riwayat-container h2 {
+      font-size: 1.5rem;
+  }
+}

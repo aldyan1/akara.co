@@ -1,0 +1,91 @@
+/* Kontainer utama untuk halaman detail barang */
+.detail-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Bagian kiri dengan gambar dan deskripsi */
+  .left-section {
+    width: 70%;
+    padding-right:em;
+  }
+  
+  .product-image1 {
+    width: 75%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Bagian kanan dengan nama barang, harga, ukuran, dan tombol */
+  .right-section {
+    width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  right: 0;
+  
+    
+    
+  }
+  
+  .product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    color: #333;
+    margin-top:1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Kontainer pilihan ukuran */
+  .size-container {
+    margin-bottom: 20px;
+  }
+  
+  .size-dropdown {
+    width: 10em;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .size-dropdown:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Tombol Tambah Keranjang */
+  .add-to-cart-button {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #555;
+  }
+  

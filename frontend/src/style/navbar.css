@@ -1,0 +1,191 @@
+/* Reset basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Pastikan konten mengisi tinggi layar penuh */
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.5em 20px;
+  border-bottom: 2px solid #ffffff; /* Garis hitam tipis di bawah navbar */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Styling untuk logo AKARA.CO agar miring */
+.logo {
+  font-size: 24px;
+  font-style: italic; /* Miringkan teks */
+  color: #000000; /* Warna teks logo */
+  margin-right: 20px;
+  margin-top: 1em;
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  list-style: none;
+  flex: 2;
+  margin-top: 1em;
+  
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: #000000;
+  text-decoration: none;
+  font-family:Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  padding-right:1.6em;
+  padding-top: 3em;
+  transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+    border-bottom: 1.9px solid #000000; /* Tambahkan garis hitam di bawah */
+    border-radius: 0; /* Menghapus border radius agar tidak melengkung */
+  }
+  .navbar li a {
+  transition: 0.2s ease;
+}
+
+  
+
+
+.search-bar {
+  flex: 1;
+  max-width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 1em;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Tombol Kembali Styling */
+.back-button {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  
+  /* Posisikan di pojok kiri atas dari .guarantee-container */
+  position: absolute;
+  left: 20px;
+}
+
+.back-button:hover {
+  background-color: #ddd;
+}
+
+.back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* Button dan ikon untuk Keranjang */
+.cart-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-icon {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+}
+
+.cart-button:hover .cart-icon {
+  transform: scale(1.1);
+}
+
+
+
+/* Styling untuk baris jaminan dan keamanan */
+.guarantee-container {
+  position: relative; /* Untuk mendukung positioning absolute dari back-button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  padding: 0.5em 0;
+  border: 1px solid #8282827c;
+  
+}
+
+.guarantee-item {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.guarantee-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.guarantee-item p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Segoe UI';
+}
+/* Styling untuk link login */
+.login-link {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 1em;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 9px 1.5em;
+  margin-left: 15em;
+  
+}
+
+.login-link:hover {
+  background-color: #0000003a;
+  
+}
+
+
+

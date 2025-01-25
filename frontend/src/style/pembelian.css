@@ -1,0 +1,140 @@
+.dashboard-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .transaksi-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 20em; /* Menyesuaikan dengan sidebar */
+    max-width: calc(100% - 20em);
+    box-sizing: border-box;
+  }
+  
+  .transaksi-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Transaksi */
+  .form-transaksi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .form-transaksi input,
+  .form-transaksi textarea,
+  .form-transaksi select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+    box-sizing: border-box;
+  }
+  
+  .form-transaksi textarea {
+    resize: vertical;
+    height: 60px;
+  }
+  
+  .form-transaksi select {
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-transaksi button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-transaksi button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tabel Transaksi */
+  .transaksi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transaksi-table th,
+  .transaksi-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .transaksi-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .transaksi-table button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transaksi-table button:nth-child(1) {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .transaksi-table button:nth-child(1):hover {
+    background-color: #e0a800;
+  }
+  
+  .transaksi-table button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .transaksi-table button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
+  /* Pesan Tidak Ada Data */
+  .no-data {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Responsivitas */
+  @media (max-width: 768px) {
+    .transaksi-container {
+      margin-left: 0;
+      max-width: 100%;
+    }
+  
+    .form-transaksi {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .transaksi-table th,
+    .transaksi-table td {
+      font-size: 12px;
+    }
+  }
+  

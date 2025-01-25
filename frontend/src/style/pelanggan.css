@@ -1,0 +1,126 @@
+.pengguna-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 20em; /* Menyesuaikan dengan sidebar */
+    max-width: calc(100% - 20em);
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-pengguna {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .form-pengguna input,
+  .form-pengguna select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+    box-sizing: border-box;
+  }
+  
+  .form-pengguna select {
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-pengguna button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-pengguna button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pengguna-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .pengguna-table th,
+  .pengguna-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .pengguna-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .pengguna-table button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pengguna-table button:nth-child(1) {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .pengguna-table button:nth-child(1):hover {
+    background-color: #e0a800;
+  }
+  
+  .pengguna-table button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .pengguna-table button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Responsivitas */
+  @media (max-width: 768px) {
+    .pengguna-container {
+      margin-left: 0;
+      max-width: 100%;
+    }
+  
+    .form-pengguna {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .pengguna-table th,
+    .pengguna-table td {
+      font-size: 12px;
+    }
+  }
+  
